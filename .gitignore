@@ -1,0 +1,12 @@
+﻿.idea
+AssetBundles
+Library
+obj
+Temp
+Logs
+Assets/StreamingAssets
+*.csproj
+*.sln
+Assets/AssetCreation
+Assets/ImportedAssets
+Assets/Scenes
