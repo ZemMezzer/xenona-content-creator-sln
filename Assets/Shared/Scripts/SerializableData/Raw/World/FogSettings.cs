@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace ExternalSerializableData.Raw.World
+namespace Shared.SerializableData.Raw.World
 {
     [Serializable]
     public struct FogSettings

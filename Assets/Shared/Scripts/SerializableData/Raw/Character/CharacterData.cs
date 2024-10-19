@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace ExternalSerializableData.Raw.Character
+namespace Shared.SerializableData.Raw.Character
 {
     [Serializable]
     public class CharacterData

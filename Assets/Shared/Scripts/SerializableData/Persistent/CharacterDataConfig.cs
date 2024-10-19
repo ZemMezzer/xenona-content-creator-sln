@@ -1,9 +1,9 @@
-﻿using ExternalSerializableData.Raw.Character;
+﻿using Shared.SerializableData.Raw.Character;
 using UnityEngine;
 
-namespace ExternalSerializableData.Persistent
+namespace Shared.SerializableData.Persistent
 {
-    [CreateAssetMenu(menuName = ExternalPathAliases.ConfigsPath + "CharacterDataConfig")]
+    [CreateAssetMenu(menuName = SharedPathAliases.ConfigsPath + "CharacterDataConfig")]
     public class CharacterDataConfig : ScriptableObject
     {
         [SerializeField] private CharacterData characterData;

@@ -1,8 +1,8 @@
-﻿namespace ExternalSerializableData
+﻿namespace Shared.SerializableData
 {
-    public static class ExternalPathAliases
+    public static class SharedPathAliases
     {
-        public const string RootSettingsPath = "XenonaExternal/";
+        public const string RootSettingsPath = "XenonaShared/";
         public const string PersistentDataPath = RootSettingsPath + "PersistentData/";
         public const string ConfigsPath = PersistentDataPath + "Configs/";
     }

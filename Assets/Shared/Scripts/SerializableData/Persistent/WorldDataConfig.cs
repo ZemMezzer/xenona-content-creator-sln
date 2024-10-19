@@ -1,9 +1,9 @@
-﻿using ExternalSerializableData.Raw.World;
+﻿using Shared.SerializableData.Raw.World;
 using UnityEngine;
 
-namespace ExternalSerializableData.Persistent
+namespace Shared.SerializableData.Persistent
 {
-    [CreateAssetMenu(menuName = ExternalPathAliases.ConfigsPath + "WorldDataConfig")]
+    [CreateAssetMenu(menuName = SharedPathAliases.ConfigsPath + "WorldDataConfig")]
     public class WorldDataConfig : ScriptableObject
     {
         [SerializeField] private WorldData worldData;
